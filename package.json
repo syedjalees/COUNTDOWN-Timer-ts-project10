@@ -1,11 +1,15 @@
 {
   "name": "@sydjalees/countdown-timer-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is a cli based countdown timer typescript project",
   "main": "index.js",
   "type": "module",
-  "publishConfig": {"access": "public"},
-  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "countdown-timer-ts": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +17,7 @@
   "author": "SAYYED JALEES AKBAR SHAH",
   "license": "MIT",
   "dependencies": {
+    "@sydjalees/countdown-timer-ts": "^1.0.1",
     "date-fns": "^3.6.0",
     "inquirer": "^9.2.23"
   },
