@@ -5,7 +5,7 @@ const res = await inquirer.prompt([
     {
         name: "userInput",
         type: "number",
-        message: "Please enter the amount of second",
+        message: "Please enter the time in seconds",
         validate: (input) => {
             if (isNaN(input)) {
                 return "Please enter valid number";

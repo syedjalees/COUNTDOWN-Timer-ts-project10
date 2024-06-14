@@ -1,6 +1,6 @@
 {
   "name": "@sydjalees/countdown-timer-ts",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "this is a cli based countdown timer typescript project",
   "main": "index.js",
   "type": "module",
